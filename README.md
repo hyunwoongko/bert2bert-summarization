@@ -21,6 +21,7 @@
 - Run `test.py` to test model
 - You can make submission file using `make_submission.py {CKPT_STEP}`
 - You can find codes that calculate ROUGE score [here](https://dacon.io/competitions/official/235673/talkboard/401911?page=1&dtype=recent&ptype=pub)
+<br><br>
 
 ### Quantitive Evalutation
 |Metric|Score|
