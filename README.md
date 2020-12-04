@@ -1,2 +1,2 @@
-# bert2bert-summarization
-KoBERT summarization using bert2bert framework
+# dacon-abstractive-summarization
+dacon abstractive summarization competition codes

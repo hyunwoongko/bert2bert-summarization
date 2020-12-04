@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="gpu-cloud-vnode286.dakao.io" id="5d740fe9-a74c-48da-9a13-cf975b8839c7" keyPath="C:\Users\MY\.ssh\id_rsa_braincloud" port="6750" nameFormat="DESCRIPTIVE" username="root" />
+    </configs>
+  </component>
+</project>
