@@ -4,24 +4,24 @@ Abstractive summarization using [Bert2Bert](https://arxiv.org/pdf/1907.12461.pdf
 <br><br>
 
 ## Dataset
-- I used dataset from Dacon's summarization competition
-- You can find dataset I uesd [here](https://dacon.io/competitions/official/235673/leaderboard/)
-- Put the `train.jsonl` and `abstractive_test_v2` into `dataset` folder
+- I used dataset from Dacon's summarization competition.
+- You can find dataset I uesd [here](https://dacon.io/competitions/official/235673/leaderboard/).
+- Put the `train.jsonl` and `abstractive_test_v2` into `dataset` folder.
 <br><br>
 
 ## Modeling
-- [KoBERT](https://github.com/SKTBrain/KoBERT) (from SKT) is used for Bert2Bert framework
-- I used [KoBERT-transformers](https://github.com/monologg/KoBERT-Transformers) and [Pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning) to reduce modeling <br><br>
+- [KoBERT](https://github.com/SKTBrain/KoBERT) (from SKT) is used for Bert2Bert framework.
+- I used [KoBERT-transformers](https://github.com/monologg/KoBERT-Transformers) and [Pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning) to reduce modeling. <br><br>
 
 ## Training
-- Run `train.py` to train bert2bert model
+- Run `train.py` to train bert2bert model.
 - I use 4 * V100 GPU to train model for 25k step.
 <br><br>
 
 ## Evaluation
-- Run `test.py` to test model
-- You can make submission file using `make_submission.py {CKPT_STEP}`
-- You can find codes that calculate ROUGE score [here](https://dacon.io/competitions/official/235673/talkboard/401911?page=1&dtype=recent&ptype=pub)
+- Run `test.py` to evaluate bert2bert model.
+- You can make submission file using `make_submission.py {CKPT_STEP}`.
+- You can find codes that calculate ROUGE score [here](https://dacon.io/competitions/official/235673/talkboard/401911?page=1&dtype=recent&ptype=pub).
 <br><br>
 
 #### Quantitive Evalutation
