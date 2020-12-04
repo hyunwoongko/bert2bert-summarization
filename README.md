@@ -10,9 +10,7 @@
 
 ## Modeling
 - [KoBERT](https://github.com/SKTBrain/KoBERT) (from SKT) is used for Bert2Bert framework
-- I used [KoBERT-transformers](https://github.com/monologg/KoBERT-Transformers) package to reduce modeling codes
-- [Pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning) is used too.
-<br><br>
+- I used [KoBERT-transformers](https://github.com/monologg/KoBERT-Transformers) and [Pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning) to reduce modeling <br><br>
 
 ## Training
 - Run `train.py` to train bert2bert model
