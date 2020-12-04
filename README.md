@@ -11,7 +11,8 @@ Abstractive summarization using [Bert2Bert](https://arxiv.org/pdf/1907.12461.pdf
 
 ## Modeling
 - [KoBERT](https://github.com/SKTBrain/KoBERT) (from SKT) is used for Bert2Bert framework.
-- I used [KoBERT-transformers](https://github.com/monologg/KoBERT-Transformers) and [Pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning) to reduce modeling. <br><br>
+- I used [KoBERT-transformers](https://github.com/monologg/KoBERT-Transformers) and [Pytorch-lightning](https://github.com/PyTorchLightning/pytorch-lightning) to reduce modeling codes. 
+<br><br>
 
 ## Training
 - Run `train.py` to train bert2bert model.
