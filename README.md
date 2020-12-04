@@ -6,7 +6,7 @@ Abstractive summarization using [Bert2Bert](https://arxiv.org/pdf/1907.12461.pdf
 ## Dataset
 - I used dataset from Dacon's summarization competition.
 - You can find dataset I uesd [here](https://dacon.io/competitions/official/235673/leaderboard/).
-- Put the `train.jsonl` and `abstractive_test_v2` into `dataset` folder.
+- Put the `train.jsonl` and `abstractive_test_v2.jsonl` into `dataset` folder.
 <br><br>
 
 ## Modeling
