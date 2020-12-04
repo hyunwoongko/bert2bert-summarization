@@ -10,7 +10,7 @@ from bert2bert import KoBertTokenizer
 
 @torch.no_grad()
 def inference():
-    step, gpu = sys.argv[1], sys.argv[2]
+    step = sys.argv[1]
     encoder_config = BertConfig.from_pretrained("monologg/kobert")
     decoder_config = BertConfig.from_pretrained("monologg/kobert")
     config = EncoderDecoderConfig.from_encoder_decoder_configs(
@@ -20,7 +20,7 @@ def inference():
     tokenizer = KoBertTokenizer()
     model = EncoderDecoderModel(config=config)
     ckpt = "model.pt"
-    device = f"cuda:{gpu}"
+    device = "cuda"
 
     model.load_state_dict(
         torch.load(
