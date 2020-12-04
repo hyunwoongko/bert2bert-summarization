@@ -15,13 +15,13 @@ Abstractive summarization using [Bert2Bert](https://arxiv.org/pdf/1907.12461.pdf
 
 ## Training
 - Run `train.py` to train bert2bert model.
-- I use 4 * V100 GPU to train model for 25k step.
+- I used 4 * V100 GPU to train model for 25k step.
 <br><br>
 
 ## Evaluation
 - Run `test.py` to evaluate bert2bert model.
 - You can make submission file using `make_submission.py {CKPT_STEP}`.
-- You can find codes that calculate ROUGE score [here](https://dacon.io/competitions/official/235673/talkboard/401911?page=1&dtype=recent&ptype=pub).
+- You can also find codes that calculate ROUGE score [here](https://dacon.io/competitions/official/235673/talkboard/401911?page=1&dtype=recent&ptype=pub).
 <br><br>
 
 #### Quantitive Evalutation
