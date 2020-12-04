@@ -1,5 +1,4 @@
 # Bert2Bert Summarization
-- Abstractive Summarization using Bert2Bert frameworks
 ![](https://user-images.githubusercontent.com/38183241/101169654-9d6fdd80-3680-11eb-96ae-965d22b05fa8.png)
 <br><br>
 
