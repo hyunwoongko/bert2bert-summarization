@@ -39,7 +39,7 @@ Abstractive summarization using [Bert2Bert](https://arxiv.org/pdf/1907.12461.pdf
 <br><br>
 
 ## Licence
-    Copyright 2019 Hyunwoong Go.
+    Copyright 2020 Hyunwoong Ko.
     
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
