@@ -38,7 +38,6 @@ Abstractive summarization using [Bert2Bert](https://arxiv.org/pdf/1907.12461.pdf
 > Summarized : 석문간척지 임차법인협의회가 지난달 30일 한국농어촌공사 당진지사 앞에서 농림축산식품부의 부당한 간척지 임대료 책정에 반발하며 벼 야적장 320t을 쌓아놓고 인근 영농인들에게 공공비축쌀 임대료를 받을 수 있도록 인하해 달라고 요구했다.
 <br><br>
 
-
 ## Licence
     Copyright 2019 Hyunwoong Go.
     
