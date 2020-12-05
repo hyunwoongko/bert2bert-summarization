@@ -55,8 +55,7 @@ def inference():
             temperature=1.0,
             no_repeat_ngram_size=3,
             bad_words_ids=[[tokenizer.token2idx["[UNK]"]]],
-            length_penalty=1.0,
-            repetition_penalty=1.5,
+            length_penalty=1.5,
             max_length=512,
         )
 
