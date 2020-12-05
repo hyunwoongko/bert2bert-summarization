@@ -53,7 +53,7 @@ def inference():
             num_beams=12,
             do_sample=False,
             temperature=1.0,
-            no_repeat_ngram_size=3,
+            no_repeat_ngram_size=4,
             bad_words_ids=[[tokenizer.token2idx["[UNK]"]]],
             length_penalty=1.5,
             max_length=512,
